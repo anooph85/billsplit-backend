@@ -42,4 +42,4 @@ def ocr_from_url():
     return jsonify({"extracted_text": text})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
+    app.run(host="0.0.0.0", port=port)
