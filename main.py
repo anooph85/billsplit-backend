@@ -27,7 +27,7 @@ def ocr_from_url():
         "requests": [
             {
                 "image": {"content": img_base64},
-                "features": [{"type": "TEXT_DETECTION"}]
+                "features": [{"type": "DOCUMENT_TEXT_DETECTION"}]
             }
         ]
     }
